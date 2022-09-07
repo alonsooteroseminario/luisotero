@@ -1,4 +1,4 @@
-![UI/UX design starter with Adobe XD](/images/blog-image-3.jpg)
+![UI/UX design starter with Adobe XD](https://miro.medium.com/max/1050/1*NGlDKs0LcQtYLPk8bOOTrw.png)
 
 ### ¿Automatización + BIM? 🤖Construcción y fabricación de 🏠 Casas Pre-fabricadas.
 
@@ -8,3 +8,5 @@ El siguiente ejercicio es una demostración real sobre como automatizar un peque
 
 😕 ¿Cuál fue el Problema?
 El problema se presentó para una empresa encargada de construir o fabricar muchas casas por medio de paneles pre-fabricados estandarizados a 1220 mm de ancho: Tipo Smart Panel o Tipo OSB.
+
+Continue reading here... https://alonsooteroseminario.medium.com/automatizar-vs-no-automatizar-79d64eb85d47

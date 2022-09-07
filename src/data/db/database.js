@@ -53,7 +53,7 @@ const database = {
       details: "Coordination of 3D BIM models using Clash Detection tools. Creation of Clash reports and manage coordination meetings."
     },
     {
-      title: "CAD to BIM",
+      title: "CAD Drawings to BIM models",
       icon: 'code',
       details: "Conversion of your drawings from 2D CAD files to 3D BIM files. Using AutoCAD and Revit."
     }
@@ -423,11 +423,12 @@ const database = {
     {
       id: 1,
       title: 'Boilerplate for BIM Application',
-      featuredImage: '/images/Untitled (6).png',
+      featuredImage: '/images/Untitled-(6).png',
       filesource: '../../blog/markdown-html-supported-blog.md',
       createDay: "9",
       createMonth: 'August',
-      createYear: "2022"
+      createYear: "2022",
+      url:'https://alonsooteroseminario.medium.com/boilerplate-for-bim-applications-cb5ad96a9938'
     },
     {
       id: 2,
@@ -558,9 +559,9 @@ const database = {
   ],
   contactInfo: {
     phoneNumbers: ['+1 778 708 2823', '+56 9 5694 2823'],
-    emailAddress: ['alonsooteroseminario@gmail.com', 'contacto@dynoscript.xyz'],
-    // address: ["Rosario Norte 32 - 1409, Las Condes, Santiago de Chile."],
-    address: ["2242 7th Ave, Vancouver, BC, Canada."]
+    emailAddress: ['alonsooteroseminario@gmail.com', 'contact@weclash.xyz'],
+    address: ["Rosario Norte 32 - 1409, Las Condes, Santiago de Chile."],
+    // address: ["2242 7th Ave, Vancouver, BC, Canada."]
   }
 }
 

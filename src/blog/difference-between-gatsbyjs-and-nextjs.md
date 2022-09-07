@@ -1,4 +1,4 @@
-![Difference between GatsbyJS & NextJS](/images/blog-image-5.jpg)
+![Difference between GatsbyJS & NextJS](https://miro.medium.com/max/1050/1*nEIUyNAgR3u6Ik8dYFQ4sg.png)
 
 ### Revit + Dynamo: BIM MEP automation to find the entry and exit dimensions of all the pipes that intercept with the Sanitary Chambers.
 
@@ -7,3 +7,5 @@ How many times have you had to modify the inlet and outlet dimensions of the pip
 Here we show you how:
 
 Step 1: First you have to have a properly modeled project and partially coordinated with the other specialties and with all the pipes with their respective slopes and with the coherence of a real project. Once this is done, we proceed to execute the routines previously mentioned.
+
+Continue reading here... https://alonsooteroseminario.medium.com/revit-dynamo-bim-mep-automation-to-find-the-entry-and-exit-dimensions-of-all-the-pipes-that-91baafb8cd35

@@ -19,7 +19,7 @@ function Contact() {
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");
 
-  const submitHandler = (event) => {
+  const submitHandler = async (event) => {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
@@ -37,6 +37,8 @@ function Contact() {
       setError(false);
       setMessage("You message has been sent!!!");
     }
+    console.log(formdata);
+    await axios.post("https://www.weclash.app/user/getintouch", formdata);
   };
   const handleChange = (event) => {
     setFormdata({

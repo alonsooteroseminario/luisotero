@@ -12,6 +12,8 @@ function BlogDetails(props) {
   const blogId = params.id;
   const blogFile = params.title;
   const fileName = `${blogFile}.md`;
+  const urlPath = content.split("-").pop()
+  console.log(urlPath);
 
   useEffect(() => {
     import(`../blog/${fileName}`)
@@ -50,7 +52,9 @@ function BlogDetails(props) {
                   shortname={disqusShortname}
                   config={disqusConfig}
                 /> */}
-                <a>Full Article here</a>
+                {/* <a href={urlPath} className="mi-button">
+                  Full Article Here
+                </a> */}
               </div>
             </Suspense>
           </div>
