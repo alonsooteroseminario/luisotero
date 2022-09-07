@@ -18,7 +18,7 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Luis Otero Portfolio</title>
+        <title>Luis Otero</title>
         <meta
           name="description"
           content="Portfolio Homepage"

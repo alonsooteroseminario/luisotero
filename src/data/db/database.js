@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Luis Otero',
-    aboutContent: "Civil Engineer and Full Stack Software Developer. Experience building solutions for the AEC industry to automate workflows during design and coordination processes. I am passionate about learning new technologies and solving problems.",
+    aboutContent: "Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about learning new technologies and solving problems to help teams.",
     age: 31,
     phone: '',
     nationality: 'Peruvian, Chilenian',
@@ -28,18 +28,23 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'brush-alt',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Web Development",
+      title: "Revit Add-ins",
       icon: 'code',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
     {
-      title: "Mobile Application",
-      icon: 'mobile',
+      title: "AutoCAD Macros",
+      icon: 'code',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
+    {
+      title: "Web Applications",
+      icon: 'code',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
+    {
+      title: "Dynamo Scripts",
+      icon: 'code',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     }
   ],
@@ -132,13 +137,13 @@ const database = {
       id: 1,
       title: "WeClash",
       subtitle: "Cloud-based 3d Viewer for sharing plans 2D or 3D.",
-      imageUrl: "/images/WeClash3Draft.PNG",
-      largeImageUrl: ["/images/WeClash3Draft.PNG", "/images/Weclash-plano2D.PNG", "/images/weclash mobile 3d.PNG", "/images/weclash mobile 3d_2.PNG"],
+      imageUrl: "/images/WeClash3Draft.png",
+      largeImageUrl: ["/images/WeClash3Draft.png", "/images/Weclash-plano2D.png", "/images/weclash mobile 3d.png", "/images/weclash mobile 3d_2.png"],
       url: 'https://www.weclash.app/'
     },
     {
       id: 2,
-      title: "Quida Web Application",
+      title: "Quida Marketplace Platform",
       subtitle: "Marketplace to connect holistic wellness professionals and nutritionists with clients.",
       imageUrl: "/images/Quidalading.png",
       largeImageUrl: ["/images/Quidalading.png"],
@@ -156,10 +161,13 @@ const database = {
       id: 4,
       title: "QuickClash Revit Add-in",
       subtitle: "Add-in to find clashes between elements in a Revit model.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      imageUrl: "/images/Sin título2.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "/images/Sin título2.png",
+        "/images/Sin título5.png",
+        "/images/Sin título3.png",
+        "/images/Sin título4.png",
+        "/images/Sin título6.png"
       ],
       url: 'https://github.com/alonsooteroseminario/QuickClash'
     },
@@ -167,46 +175,46 @@ const database = {
       id: 5,
       title: "CDW Estimation Revit Add-in",
       subtitle: "Add-in to estimate the waste of materials in a Revit model.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: ''
+      imageUrl: "",
+      url: 'https://github.com/alonsooteroseminario/AddinExportCDW'
     },
     {
       id: 6,
       title: "Web-Clash 3D Viewer",
       subtitle: "BIM360 Account Free Viewer",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "/images/webclash-bim360.png",
+      largeImageUrl: ["/images/webclash-bim360.png"],
       url: 'https://webclash-bim360.herokuapp.com/'
     },
     {
       id: 7,
       title: "Hotel Booking Reservation App",
       subtitle: "Form to book a hotel room and synchronize with a database and notify the admin and user.",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
+      imageUrl: "/images/residencial-1.png",
+      largeImageUrl: ["/images/residencial-1.png"],
       url: 'https://resi-sangabriel.herokuapp.com/'
     },
     {
       id: 8,
       title: "AutoCAD Macro - Quick Block Manager",
       subtitle: "Application to draw blocks in AutoCAD with a simple interface.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      imageUrl: "/images/",
+      largeImageUrl: ["/images/"]
     },
     {
       id: 9,
       title: "Dynamo Scripts",
       subtitle: "Custom Dynamo scripts to automate tasks in Revit.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: ''
+      imageUrl: "/images/Sin título28.png",
+      largeImageUrl: ["/images/Sin título28.png"],
+      url: 'https://www.dynoscript.xyz/shop?lang=en'
     },
     {
       id: 10,
       title: "Split Walls Revit Add-in",
       subtitle: "Add-in to split walls according with some pre -rules in a Revit model.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"],
+      imageUrl: "/images/",
+      largeImageUrl: ["/images/"],
       url: ''
     },
     // {
@@ -393,17 +401,17 @@ const database = {
       title: 'Boilerplate for BIM Application',
       featuredImage: '/images/Untitled (6).png',
       filesource: '../../blog/markdown-html-supported-blog.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
+      createDay: "9",
+      createMonth: 'August',
+      createYear: "2022"
     },
     {
       id: 2,
       title: 'Rutinas de Dynamo hacia un Add-Ins desarrollados en C#: Automatizando procesos en Revit API',
       featuredImage: '/images/Spring Collection_2.png',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "11",
+      createMonth: 'December',
       createYear: "2020"
     },
     {
@@ -411,8 +419,8 @@ const database = {
       title: '¿Automatización + BIM? 🤖Construcción y fabricación de 🏠 Casas Pre-fabricadas.',
       featuredImage: '/images/Should I automate my job_2_portada.png',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "25",
+      createMonth: 'September',
       createYear: "2020"
     },
     // {
@@ -429,8 +437,8 @@ const database = {
       title: 'Revit + Dynamo: BIM MEP automation to find the entry and exit dimensions of all the pipes that intercept with the Sanitary Chambers.',
       featuredImage: '/images/Sin título8.png',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
-      createDay: "20",
-      createMonth: 'February',
+      createDay: "25",
+      createMonth: 'Marzo',
       createYear: "2020"
     },
     {
@@ -438,7 +446,7 @@ const database = {
       title: 'Revit + Dynamo + Python: Create your own Plug-ins by automating interference correction between MEP specialties within BIM models: Part 1',
       featuredImage: '/images/portada4_english.png',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
-      createDay: "20",
+      createDay: "27",
       createMonth: 'February',
       createYear: "2020"
     },
@@ -447,7 +455,7 @@ const database = {
       title: 'Video Tutorial: Turn your Dynamo Scripts into Add-Ins using C#',
       featuredImage: '/images/Capture8.png',
       filesource: '../../blog/web-automation-with-python-language.md',
-      createDay: "20",
+      createDay: "27",
       createMonth: 'February',
       createYear: "2020"
     },
@@ -527,7 +535,8 @@ const database = {
   contactInfo: {
     phoneNumbers: ['+1 778 708 2823', '+56 9 5694 2823'],
     emailAddress: ['alonsooteroseminario@gmail.com', 'contacto@dynoscript.xyz'],
-    address: ["Santiago de Chile"],
+    // address: ["Rosario Norte 32 - 1409, Las Condes, Santiago de Chile."],
+    address: ["2242 7th Ave, Vancouver, BC, Canada."]
   }
 }
 
