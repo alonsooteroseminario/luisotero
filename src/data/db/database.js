@@ -22,57 +22,67 @@ const database = {
       medium: 'https://alonsooteroseminario.medium.com'
     },
     brandImage: '/images/profil-laos.jpg',
-    aboutImage: '/images/profil-laos.jpg',
-    aboutImageLg: '/images/profil-laos.jpg',
+    aboutImage: '/images/laosprofile2.jpeg',
+    aboutImageLg: '/images/laosprofile2.jpeg',
     cvfile: '/files/Luis Alonso Otero Seminario CV - September 2022 - English.pdf'
   },
   services: [
     {
       title: "Revit Add-ins",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Development of .NET libraries to extend Revit functionalities and automate time consuming tasks. Using C# and Revit API."
     },
     {
       title: "AutoCAD Macros",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Development of .NET libraries to extend AutoCAD functionalities. Using C#, ObjectARX API and AutoCAD API."
     },
     {
       title: "Web Applications",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Development of CRUD web applications. Integration with IFC.js, ThreeJS, Forge API Design Automation and other libraries."
     },
     {
       title: "Dynamo Scripts",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Development of Dynamo scripts to automate workflows within Revit. Using Dynamo API and Python Scripts."
+    },
+    {
+      title: "BIM Coordination",
+      icon: 'code',
+      details: "Coordination of 3D BIM models using Clash Detection tools. Creation of Clash reports and manage coordination meetings."
+    },
+    {
+      title: "CAD to BIM",
+      icon: 'code',
+      details: "Conversion of your drawings from 2D CAD files to 3D BIM files. Using AutoCAD and Revit."
     }
   ],
   reviews: [
-    {
-      id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
-      author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
-      }
-    },
-    {
-      id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
-      author: {
-        name: 'Susan Yost',
-        designation: 'Client'
-      }
-    },
-    {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
-      }
-    }
+    // {
+    //   id: 1,
+    //   content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+    //   author: {
+    //     name: 'Burdette Turner',
+    //     designation: 'Web Developer, Abc Company'
+    //   }
+    // },
+    // {
+    //   id: 2,
+    //   content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+    //   author: {
+    //     name: 'Susan Yost',
+    //     designation: 'Client'
+    //   }
+    // },
+    // {
+    //   id: 3,
+    //   content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    //   author: {
+    //     name: 'Irving Feeney',
+    //     designation: 'Fiverr Client'
+    //   }
+    // }
   ],
   skills: [
     {
@@ -124,6 +134,14 @@ const database = {
       value: 70
     },
     {
+      title: "Revit User",
+      value: 100
+    },
+    {
+      title: "Navisworks User",
+      value: 90
+    },
+    {
       title: "English",
       value: 95
     },
@@ -145,8 +163,8 @@ const database = {
       id: 2,
       title: "Quida Marketplace Platform",
       subtitle: "Marketplace to connect holistic wellness professionals and nutritionists with clients.",
-      imageUrl: "/images/Quidalading.PNG",
-      largeImageUrl: ["/images/Quidalading.PNG"],
+      imageUrl: "/images/Captura-nomade-quida.PNG",
+      largeImageUrl: ["/images/Captura-nomade-quida.PNG","/images/Quidalading.PNG"],
       url: 'https://quida.herokuapp.com/'
     },
     {
@@ -174,9 +192,9 @@ const database = {
     {
       id: 5,
       title: "CDW Estimation Revit Add-in",
-      subtitle: "Add-in to estimate the waste of materials in a Revit model.",
+      subtitle: "Add-in to estimate the waste of materials in a Revit model. (Private Client)",
       imageUrl: "",
-      url: 'https://github.com/alonsooteroseminario/AddinExportCDW'
+      url: ''
     },
     {
       id: 6,
@@ -197,14 +215,14 @@ const database = {
     {
       id: 8,
       title: "AutoCAD Macro - Quick Block Manager",
-      subtitle: "Application to draw blocks in AutoCAD with a simple interface.",
+      subtitle: "Application to draw blocks in AutoCAD with a simple interface. (Private Client)",
       imageUrl: "/images/",
       largeImageUrl: ["/images/"]
     },
     {
       id: 9,
       title: "Dynamo Scripts",
-      subtitle: "Custom Dynamo scripts to automate tasks in Revit.",
+      subtitle: "Development of Custom Dynamo Scripts to automate tasks within Revit.",
       imageUrl: "/images/Sin título28.png",
       largeImageUrl: ["/images/Sin título28.png"],
       url: 'https://www.dynoscript.xyz/shop?lang=en'
@@ -212,7 +230,7 @@ const database = {
     {
       id: 10,
       title: "Split Walls Revit Add-in",
-      subtitle: "Add-in to split walls according with some pre -rules in a Revit model.",
+      subtitle: "Add-in to split walls according with some pre -rules in a Revit model. (Private Client)",
       imageUrl: "/images/",
       largeImageUrl: ["/images/"],
       url: ''
@@ -370,7 +388,7 @@ const database = {
         id: 6,
         year: "2015 - 2015",
         position: "Production Engineer Intern",
-        company: "Izquierdo & Casafranca Construcciones Metálicas S.A. Piura, Perú.",
+        company: "Izquierdo & Casafranca Construcciones Metálicas S.A. (Piura, Perú)",
         details: "Build Gantt Chart and track project progress according to the master plan."
       }
     ],
@@ -384,11 +402,17 @@ const database = {
       {
         id: 2,
         year: "2016 - 2016",
-        graduation: "Diploma in advanced BIM for building projects and New Digital Technologies in Architecture: Modeling and Development of BIM Projects. ",
+        graduation: "Diploma in advanced BIM for building projects. ",
         university: "Pontifical Catholic University of Chile"
       },
       {
         id: 3,
+        year: "2016 - 2016",
+        graduation: "Diploma in New Digital Technologies in Architecture: Modeling and Development of BIM Projects. ",
+        university: "Pontifical Catholic University of Chile"
+      },
+      {
+        id: 4,
         year: "2008 - 2014",
         graduation: "Civil Engineer Degree",
         university: "University of Piura (Perú)"
