@@ -137,37 +137,37 @@ const database = {
       id: 1,
       title: "WeClash",
       subtitle: "Cloud-based 3d Viewer for sharing plans 2D or 3D.",
-      imageUrl: "/images/WeClash3Draft.png",
-      largeImageUrl: ["/images/WeClash3Draft.png", "/images/Weclash-plano2D.png", "/images/weclash mobile 3d.png", "/images/weclash mobile 3d_2.png"],
+      imageUrl: "/images/WeClash3Draft.PNG",
+      largeImageUrl: ["/images/WeClash3Draft.PNG", "/images/Weclash-plano2D.PNG", "/images/weclash mobile 3d.PNG", "/images/weclash mobile 3d_2.PNG"],
       url: 'https://www.weclash.app/'
     },
     {
       id: 2,
       title: "Quida Marketplace Platform",
       subtitle: "Marketplace to connect holistic wellness professionals and nutritionists with clients.",
-      imageUrl: "/images/Quidalading.png",
-      largeImageUrl: ["/images/Quidalading.png"],
+      imageUrl: "/images/Quidalading.PNG",
+      largeImageUrl: ["/images/Quidalading.PNG"],
       url: 'https://quida.herokuapp.com/'
     },
     {
       id: 3,
       title: "Portfolio App",
       subtitle: "This portfolio app is built with ReactJS and NodeJS.",
-      imageUrl: "/images/Captura-POrtofolio.png",
-      largeImageUrl: ["/images/Captura-POrtofolio.png"],
+      imageUrl: "/images/Captura-POrtofolio.PNG",
+      largeImageUrl: ["/images/Captura-POrtofolio.PNG"],
       url: 'https://portfolio-laos.herokuapp.com/'
     },
     {
       id: 4,
       title: "QuickClash Revit Add-in",
       subtitle: "Add-in to find clashes between elements in a Revit model.",
-      imageUrl: "/images/Sin título2.png",
+      imageUrl: "/images/Sin títulfsfsdo.png",
       largeImageUrl: [
-        "/images/Sin título2.png",
-        "/images/Sin título5.png",
-        "/images/Sin título3.png",
-        "/images/Sin título4.png",
-        "/images/Sin título6.png"
+        "/images/Sin títulfsfsdo.png",
+        "/images/Sin título2gfgf.png",
+        "/images/Sin título4gfgf.png",
+        "/images/Sin título5gfgf.png",
+        "/images/Sin título6gff.png"
       ],
       url: 'https://github.com/alonsooteroseminario/QuickClash'
     },
@@ -190,8 +190,8 @@ const database = {
       id: 7,
       title: "Hotel Booking Reservation App",
       subtitle: "Form to book a hotel room and synchronize with a database and notify the admin and user.",
-      imageUrl: "/images/residencial-1.png",
-      largeImageUrl: ["/images/residencial-1.png"],
+      imageUrl: "/images/residencial-1.PNG",
+      largeImageUrl: ["/images/residencial-1.PNG"],
       url: 'https://resi-sangabriel.herokuapp.com/'
     },
     {
