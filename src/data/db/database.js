@@ -160,21 +160,26 @@ const database = {
       url: 'https://www.weclash.app/'
     },
     {
-      id: 2,
-      title: "Quida Marketplace Platform",
-      subtitle: "Marketplace to connect holistic wellness professionals and nutritionists with clients.",
-      imageUrl: "/images/Captura-nomade-quida.PNG",
-      largeImageUrl: ["/images/Captura-nomade-quida.PNG","/images/Quidalading.PNG"],
-      url: 'https://quida.herokuapp.com/'
+      id: 6,
+      title: "Web-Clash 3D Viewer",
+      subtitle: "BIM360 Account Free Viewer",
+      imageUrl: "/images/webclash-bim360.png",
+      largeImageUrl: ["/images/webclash-bim360.png", 
+      "/images/webclash1.jpeg", 
+      "/images/webclash2.jpeg", 
+      "/images/VIDEO-2022-04-21-19-07-48.mp4",
+      "/images/VIDEO-2022-04-21-19-09-04.mp4",
+      "/images/VIDEO-2022-04-21-19-09-05.mp4"],
+      url: 'https://webclash-bim360.herokuapp.com/'
     },
-    {
-      id: 3,
-      title: "Portfolio App",
-      subtitle: "This portfolio app is built with ReactJS and NodeJS.",
-      imageUrl: "/images/Captura-POrtofolio.PNG",
-      largeImageUrl: ["/images/Captura-POrtofolio.PNG"],
-      url: 'https://portfolio-laos.herokuapp.com/'
-    },
+    // {
+    //   id: 2,
+    //   title: "Quida Marketplace Platform",
+    //   subtitle: "Marketplace to connect holistic wellness professionals and nutritionists with clients.",
+    //   imageUrl: "/images/Captura-nomade-quida.PNG",
+    //   largeImageUrl: ["/images/Captura-nomade-quida.PNG","/images/Quidalading.PNG"],
+    //   url: 'https://quida.herokuapp.com/'
+    // },
     {
       id: 4,
       title: "QuickClash Revit Add-in",
@@ -190,19 +195,24 @@ const database = {
       url: 'https://github.com/alonsooteroseminario/QuickClash'
     },
     {
-      id: 5,
-      title: "CDW Estimation Revit Add-in",
-      subtitle: "Add-in to estimate the waste of materials in a Revit model. (Private Client)",
-      imageUrl: "",
+      id: 10,
+      title: "Split Walls Revit Add-in",
+      subtitle: "Add-in to split walls according with some pre -rules in a Revit model. (Private Client)",
+      imageUrl: "/images/splitwall1.png",
+      largeImageUrl: ["/images/splitwall1.png", "/images/splitwall2.png"],
       url: ''
     },
     {
-      id: 6,
-      title: "Web-Clash 3D Viewer",
-      subtitle: "BIM360 Account Free Viewer",
-      imageUrl: "/images/webclash-bim360.png",
-      largeImageUrl: ["/images/webclash-bim360.png"],
-      url: 'https://webclash-bim360.herokuapp.com/'
+      id: 5,
+      title: "CDW Estimation Revit Add-in",
+      subtitle: "Add-in to estimate the waste of materials in a Revit model. (Private Client)",
+      imageUrl: "/images/cdwestimation3.png",
+      largeImageUrl: ["/images/cdwestimation1.png", 
+      "/images/cdwestimation2.png",
+      "/images/cdwestimation3.png",
+      "/images/cdwestimation4.png",
+      "/images/cdwestimation5.png"],
+      url: 'https://github.com/alonsooteroseminario/AddinExportCDW'
     },
     {
       id: 7,
@@ -211,6 +221,14 @@ const database = {
       imageUrl: "/images/residencial-1.PNG",
       largeImageUrl: ["/images/residencial-1.PNG"],
       url: 'https://resi-sangabriel.herokuapp.com/'
+    },
+    {
+      id: 3,
+      title: "Portfolio App",
+      subtitle: "This portfolio app is built with ReactJS and NodeJS.",
+      imageUrl: "/images/Captura-POrtofolio.PNG",
+      largeImageUrl: ["/images/Captura-POrtofolio.PNG"],
+      url: 'https://portfolio-laos.herokuapp.com/'
     },
     {
       id: 8,
@@ -226,14 +244,6 @@ const database = {
       imageUrl: "/images/Sin título28.png",
       largeImageUrl: ["/images/Sin título28.png"],
       url: 'https://www.dynoscript.xyz/shop?lang=en'
-    },
-    {
-      id: 10,
-      title: "Split Walls Revit Add-in",
-      subtitle: "Add-in to split walls according with some pre -rules in a Revit model. (Private Client)",
-      imageUrl: "/images/",
-      largeImageUrl: ["/images/"],
-      url: ''
     },
     // {
     //   id: 11,
