@@ -24,7 +24,7 @@ const database = {
     brandImage: '/images/profil-laos.jpg',
     aboutImage: '/images/laosprofile2.jpeg',
     aboutImageLg: '/images/laosprofile2.jpeg',
-    cvfile: '/files/Luis-Alonso-Otero-Seminario-CV-September2022-English.pdf'
+    cvfile: '/files/Luis_Alonso_Otero_Seminario_CV-October-2022-English.pdf'
   },
   services: [
     {
