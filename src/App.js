@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Notfound from "./pages/Notfound";
 import Portfolios from "./pages/Portfolios";
 import Resumes from "./pages/Resumes";
+import Services from "./pages/Services";
 
 function App() {
   const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
@@ -44,6 +45,7 @@ function App() {
       <Routes>
         <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
         <Route path="resume" element={<Resumes />} />
         <Route path="portfolios" element={<Portfolios />} />
         <Route path="blogs" element={<Blogs />} />

@@ -61,7 +61,7 @@ function About() {
         <title>About - Luis Otero</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template About Page"
+          content="Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about learning new technologies and solving problems to help teams."
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
@@ -150,7 +150,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="mi-service-area mi-section mi-padding-top">
+        {/* <div className="mi-service-area mi-section mi-padding-top">
           <div className="container">
             <Sectiontitle title="Services" />
             <div className="mi-service-wrapper">
@@ -166,7 +166,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             {/* <Sectiontitle title="Reviews" />

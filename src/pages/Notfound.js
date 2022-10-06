@@ -11,7 +11,7 @@ function Notfound() {
         <title>404 - Luis Otero</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Not Found Page"
+          content="Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about learning new technologies and solving problems to help teams."
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
