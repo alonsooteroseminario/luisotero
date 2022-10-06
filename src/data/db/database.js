@@ -167,7 +167,6 @@ const database = {
       largeImageUrl: ["/images/webclash-bim360.png", 
       "/images/webclash1.jpeg", 
       "/images/webclash2.jpeg", 
-      "/images/VIDEO-2022-04-21-19-07-48.mp4",
       "/images/VIDEO-2022-04-21-19-09-04.mp4",
       "/images/VIDEO-2022-04-21-19-09-05.mp4"],
       url: 'https://webclash-bim360.herokuapp.com/'
