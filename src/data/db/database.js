@@ -360,53 +360,53 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
+        year: "Nov 2022 - Present",
+        position: "Digital Development Lead",
+        company: "WSP in Canada (Vancouver, BC, Canada)",
+        details: "Part of Buildings Digital Solutions Team (national). Responsible for the development of BIM and Engineering tools and customizing solutions. Design and development of customized desktop and web applications, like tools, and components for internal and external clients. Design, test, deploy and support application tools and components, in partnership with other members of the team and user groups. Promote new technology-based tools and solutions internally to drive awareness, adoption, and use. Automated solutions will also encompass various design and analysis applications used in engineering projects. Skills: Software Development, Web Development, Microservices, Autodesk Platforms Service, .NET, TypeScript, CSS3, HTML5, Git, JavaScript, Node.js, C#."
+      },
+      {
+        id: 2,
+        year: "2018 - 2022",
         position: "AutoCAD & Revit API Developer",
         company: "Dynoscript Freelance (Worldwide)",
         details: "Freelance Consulting for automation solutions within the BIM workflow. Development of custom Revit or AutoCAD Add-ins following client’s requirements. Using .Net with C# for desktop applications or MERN stack for web applications."
       },
       {
-        id: 2,
+        id: 3,
         year: "2021 – 2022",
         position: "VDC Automation",
         company: "True Mechanical Ltd. (Vancouver, Canada)",
         details: "Development of C# Macros, .NET Add-ins, and Dynamo script to automate manual time-consuming tasks."
       },
       {
-        id: 3,
+        id: 4,
         year: "2021 - 2022",
         position: "Full Stack Web Developer",
         company: "WeClash - App to improve Construction Industry",
         details: "Cloud-based 3d Viewer for sharing plans 2D or 3D. Using MERN stack."
       },
       {
-        id: 4,
+        id: 5,
         year: "2019 - 2021",
         position: "BIM Coordinator",
         company: "Cypco Constructora (Santiago, Chile)",
         details: "BIM Coordination of MEP Specialties in construction site."
       },
       {
-        id: 5,
+        id: 6,
         year: "2017 - 2019",
         position: "BIM Modeler",
         company: "IDOM Consulting, Engineering, Architecture (Santiago, Chile)",
         details: "Detailed MEP engineering in New Pudahuel Expansion and Modernization of the Arturo Merino Benítez International Airport, Santiago de Chile. "
       },
       {
-        id: 6,
+        id: 7,
         year: "2015 - 2015",
         position: "Production Engineer Intern",
         company: "Izquierdo & Casafranca Construcciones Metálicas S.A. (Piura, Perú)",
         details: "Build Gantt Chart and track project progress according to the master plan."
-      },
-      {
-        id: 7,
-        year: "Nov 2022 - Present",
-        position: "Digital Development Lead",
-        company: "WSP in Canada (Vancouver, British Columbia, Canada)",
-        details: "Part of Buildings Digital Solutions Team (national). Responsible for the development of BIM and Engineering tools and customizing solutions. Design and development of customized desktop and web applications, like tools, and components for internal and external clients. Design, test, deploy and support application tools and components, in partnership with other members of the team and user groups. Promote new technology-based tools and solutions internally to drive awareness, adoption, and use. Automated solutions will also encompass various design and analysis applications used in engineering projects. Skills: Software Development, Web Development, Microservices, Autodesk Platforms Service, .NET, TypeScript, CSS3, HTML5, Git, JavaScript, Node.js, C#."
-      }      
+      }   
     ],
     educationExperience: [
       {
