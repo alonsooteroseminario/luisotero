@@ -61,7 +61,7 @@ function About() {
         <title>About - Luis Otero</title>
         <meta
           name="description"
-          content="Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about learning new technologies and solving problems to help teams."
+          content="Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about soilving problems to help teams."
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>

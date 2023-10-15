@@ -2,14 +2,14 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Luis Otero',
-    aboutContent: "Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about learning new technologies and solving problems to help teams.",
-    age: 31,
+    name: 'Luis Alonso Otero',
+    aboutContent: "Civil Engineer and Full Stack Software Developer. I build solutions for the AEC industry to automate workflows during design and coordination. I am passionate about soilving problems to help teams.",
+    age: 32,
     phone: '',
-    nationality: 'Peruvian, Chilenian',
-    language: 'Spanish, English',
+    nationality: 'Peruvian & Chilean',
+    language: 'Spanish & English',
     email: 'alonsooteroseminario@gmail.com',
-    address: 'Santiago de Chile',
+    address: 'Vancouver, BC. Canada',
     freelanceStatus: 'Available Worldwide (Remotely)',
     socialLinks: {
       facebook: '',
@@ -38,7 +38,7 @@ const database = {
       details: "Development of .NET libraries to extend AutoCAD functionalities. Using C#, ObjectARX API and AutoCAD API."
     },
     {
-      title: "Web Applications",
+      title: "3D Web Applications",
       icon: 'code',
       details: "Development of CRUD web applications. Integration with IFC.js, ThreeJS, Forge API Design Automation and other libraries."
     },
@@ -87,7 +87,7 @@ const database = {
   skills: [
     {
       title: "Revit API",
-      value: 95
+      value: 100
     },
     {
       title: "Dynamo Scripts",
@@ -95,7 +95,7 @@ const database = {
     },
     {
       title: "Forge API",
-      value: 90
+      value: 95
     },
     {
       title: "AutoCAD API",
@@ -107,7 +107,7 @@ const database = {
     },
     {
       title: "C#",
-      value: 90
+      value: 100
     },
     {
       title: ".NET",
@@ -119,15 +119,15 @@ const database = {
     },
     {
       title: "JavaScript",
-      value: 90
+      value: 100
     },
     {
       title: "ReactJS",
-      value: 90
+      value: 100
     },
     {
       title: "NodeJS",
-      value: 90
+      value: 100
     },
     {
       title: "Docker",
@@ -143,7 +143,7 @@ const database = {
     },
     {
       title: "English",
-      value: 95
+      value: 100
     },
     {
       title: "Spanish",
@@ -399,7 +399,14 @@ const database = {
         position: "Production Engineer Intern",
         company: "Izquierdo & Casafranca Construcciones Metálicas S.A. (Piura, Perú)",
         details: "Build Gantt Chart and track project progress according to the master plan."
-      }
+      },
+      {
+        id: 7,
+        year: "Nov 2022 - Present",
+        position: "Digital Development Lead",
+        company: "WSP in Canada (Vancouver, British Columbia, Canada)",
+        details: "Part of Buildings Digital Solutions Team (national). Responsible for the development of BIM and Engineering tools and customizing solutions. Design and development of customized desktop and web applications, like tools, and components for internal and external clients. Design, test, deploy and support application tools and components, in partnership with other members of the team and user groups. Promote new technology-based tools and solutions internally to drive awareness, adoption, and use. Automated solutions will also encompass various design and analysis applications used in engineering projects. Skills: Software Development, Web Development, Microservices, Autodesk Platforms Service, .NET, TypeScript, CSS3, HTML5, Git, JavaScript, Node.js, C#."
+      }      
     ],
     educationExperience: [
       {
@@ -567,9 +574,9 @@ const database = {
     // }
   ],
   contactInfo: {
-    phoneNumbers: ['+1 778 708 2823', '+56 9 5694 2823'],
-    emailAddress: ['alonsooteroseminario@gmail.com', 'contact@weclash.xyz'],
-    address: ["Rosario Norte 32 - 1409, Las Condes, Santiago de Chile."],
+    phoneNumbers: ['+1 778 989 2823', '+56 9 5694 2823'],
+    emailAddress: ['alonsooteroseminario@gmail.com'],
+    address: ["2242 7th Ave W. Vancouver V6K 1Y2."],
     // address: ["2242 7th Ave, Vancouver, BC, Canada."]
   }
 }
